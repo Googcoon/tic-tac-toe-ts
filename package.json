@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc index.ts && node './compiled/index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "googcoon",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "discord-rpc": "^4.0.1",
+    "html5-websocket": "^2.0.4",
+    "reconnecting-websocket": "^4.4.0",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "raylib": "^0.8.1"
+  }
+}
