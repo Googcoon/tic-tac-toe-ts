@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "tsc index.ts && node './compiled/index.js'",
+    "start": "tsc && node ./compiled/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "googcoon",
